@@ -16,5 +16,3 @@ que combinar la sintaxis, envolviendo la palabra entre tres asteriscos o
 tres guiones bajos.
 
 Primera Modificacion
-Segunda Modificacion
-Tercera Modificacion
