@@ -1,0 +1,20 @@
+BPM GIT
+
+1- Dirigirse al directorio/repositorio con comando cd (Comando cd .. va al directorio anterior)
+2- Una vez en el directorio a versionar hacer git init
+3- Se crea el repositorio y la carpeta Git oculta
+4- Se dan de alta los archivos a versionar con git add + nombre de archivo
+5- Se comitea git commit -m "algo que escribir"
+6- Se comitea cada vez que se modifica algo.
+
+Remoto
+1- Todo igual a anterior
+2- Se da un nombre al repositorio remoto, a la url. Git remote add +nombre del repositorio+ URL
+3- Se hace un push para llevar todos los archivos del directorio/repositorio donde uno esta parado al repositorio remoto.
+git push +nombre del repositorio+ master (en caso de estar en la carpeta raiz)
+4- Se hace un git pull +nombre del repositorio+ master para traer los cambios en ese repositorio
+5- Para traer un repositorio de alguien que nos lo compartio Git clone +url del respotorio compartido+
+
+i) para conocer el estado en tod momentos de los repositorios usar git status
+
+Numero largo=Hash - Numero unico que identifica un commit
